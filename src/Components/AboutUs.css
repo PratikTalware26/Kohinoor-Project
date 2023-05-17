@@ -1,0 +1,40 @@
+.about-parent-cont h2{
+    padding: 40px;
+    text-align: center;
+    color: #e93f33;
+    text-shadow: 2px 2px 2px #ccc;
+}
+.about-cont{
+    display: flex;
+    height: 500px;
+    /* padding: 20px; */
+}
+.about-imgcont{
+    width: 800px;
+    /* height: 400px; */
+}
+.about-imgcont img{
+    width: 100%;
+    height: 100%;
+}
+.about-infocont{
+    width: 60%;
+    text-align: center;
+    padding: 20px;
+    padding-top: 0;
+    background: #e93f33;    
+    color: white;
+    overflow: scroll;
+}
+.about-infocont h2{
+    padding: 30px 0;
+    position: sticky;
+    top: 0px;
+    background: #e93f33;
+}
+.about-infocont p{
+    line-height: 2em;
+}
+.about-infocont p span{
+    font-weight: bolder;
+}

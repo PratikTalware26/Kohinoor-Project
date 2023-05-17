@@ -1,0 +1,38 @@
+.bestpricing{
+    text-align: center;
+    color: #E93F33;
+    padding: 40px;
+}
+.pricing-table{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    border-collapse: collapse;
+    /* padding: 20px; */
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+.pricing-table-cont{
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+.pricing-table thead{
+    background: #E93F33;
+    color: white;
+}
+.pricing-table thead th{
+    padding: 16px;
+}
+th, td{
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+.swiper{
+    text-align: center;
+}
+.pricing-table td button{
+    background: #e93f33;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 2px;
+}

@@ -1,0 +1,22 @@
+.ammenities-parentcont{
+    height: 350px;
+}
+.ammenities-cont{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+.ammenities-cont div{
+    width: 25%;
+}
+.ammenities-cont img{
+    width: 40px;
+    height: 40px;
+}
+.ammenities-parentcont h2{
+    text-align: center;
+    color: #e93f33;
+    padding: 40px;
+}

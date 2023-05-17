@@ -1,0 +1,23 @@
+.gallary-cont-parent{
+    background: rgba(212, 212, 212, 1);
+    padding-bottom: 20px;
+}
+.gallary-cont-parent h2{
+    color: #E93F33;
+    text-align: center;
+    padding: 40px;
+}
+.gallaryimg{
+    width: 90%;
+    height: 300px;
+    box-shadow: 3px 3px 6px 2px gray;
+}
+.swiper-button-next, .swiper-rtl, .swiper-button-prev{
+    color: #E93F33 !important;
+}
+.swiper-pagination-bullet-active{
+    background: #E93F33 !important;
+}
+:root {
+    --swiper-navigation-size: 30px !important;
+}

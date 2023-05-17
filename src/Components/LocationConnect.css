@@ -1,0 +1,37 @@
+.location-info{
+  min-height: 40vh; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../assets/main2.jpeg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.location-head{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    padding: 40px;
+}
+.location-cont{
+    display: flex;
+    min-height: 400px;
+}
+.location-leftside{
+    width: 50%;
+    height: 400px;
+}
+.location-leftside img{
+    width: 100%;
+    height: 100%;
+}
+.location-rightside{
+    width: 50%;
+    background: #E93F33;
+    color: white;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.location-rightside p{
+    margin: 24px 0;
+}
